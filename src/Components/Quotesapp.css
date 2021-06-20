@@ -1,0 +1,47 @@
+.app{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotebox{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 60%;
+    height: 70%;
+    background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 42px;    
+}
+
+.quotation{
+    font-size: 3.5vh;
+    text-align: center;
+    margin: 10px;
+}
+
+.button{
+    font-family: 'Poppins', sans-serif;
+    background: #FFAFCC;
+    border-radius: 50px;
+    color: #081131;
+    font-weight: 650;
+    margin: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 2.5vh;
+    border: hidden;
+}
+
+.img1{
+    position: absolute;
+    height: 16%;
+    bottom: 0;
+}
+
