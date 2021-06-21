@@ -30,7 +30,6 @@ class Quotesapp extends React.Component {
         return(
             <div className="app">
                 <div className="quotebox">
-                <div className="shape1"></div>
                 <h1 className="quotation">{this.state.quote}</h1>
                 </div>
                 <button className="button" onClick={this.fetchQuote}>
