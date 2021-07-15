@@ -13,7 +13,7 @@ class Quotesapp extends React.Component {
     }
   
     fetchQuote = () => {
-      axios.get('https://api.quotable.io/random?tags=famous-quotes')
+      axios.get('https://api.quotable.io/random?tags=famous-quotes,technology')
         .then((res) => {
           //console.log(res.data.content);
           const quote = res.data.content;
