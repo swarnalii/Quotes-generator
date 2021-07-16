@@ -13,13 +13,11 @@ class Quotesapp extends React.Component {
     }
   
     fetchQuote = () => {
-      axios.get('https://api.quotable.io/random?tags=famous-quotes,technology')
+      axios.get('https://api.quotable.io/random?maxLength=65')
         .then((res) => {
           //console.log(res.data.content);
           const quote = res.data.content;
-          if(quote.length < 60)
-            this.setState({ quote });
-          else this.fetchQuote();
+          this.setState({ quote });
         })
         .catch((error) => {
           console.log(error);
