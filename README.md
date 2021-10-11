@@ -11,4 +11,5 @@ A simple quotes generator using React.
 ### Screenshots:
 
 ![quotes-gen-img1](https://github.com/swarnalii/Quotes-generator/blob/main/imgs/quotes-gen.png)
+
 ![quotes-gen-img2](https://github.com/swarnalii/Quotes-generator/blob/main/imgs/quotes-gen2.png)
